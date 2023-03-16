@@ -24,7 +24,7 @@ namespace WebApplication_Assignment__John.Controllers
         }
         public IActionResult Intro()
         {
-            return Content("This is intro page.");
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
